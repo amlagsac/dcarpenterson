@@ -1,19 +1,40 @@
-.container-fluid {
-    background-color: white;
-    height: 75px;
-}
-
 h1 {
     display: inline-block;
-    font-family: 'Overpass', sans-serif;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     font-size: 20px;
-    font-weight: 700;
-    padding: 5px 0 0 5px;
+    font-weight: 900;
+    padding: 2px 0 0 5px;
     letter-spacing: 1px;
+    color: #002060;
     
 }
 
 img {
     height: 40px;
     margin: -6px 0 2px 12px;
+}
+
+hr {
+    margin-top: -10px;
+    height: 2.5px;
+    background-color: black;
+}
+
+.container-fluid {
+    background-color: white;
+    height: 75px;
+}
+
+.navbar-border {
+    background-color: white;
+    height: 75px;
+}
+
+.nav-link {
+    margin: 0 7.5px;
+}
+
+.nav-link:hover {
+    border: 1px solid;
+    border-radius: 5px;
 }
